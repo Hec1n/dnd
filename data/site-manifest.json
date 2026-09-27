@@ -1,0 +1,26 @@
+{
+  "version": "0.9",
+  "pages": [
+    "index.html",
+    "story.html",
+    "npcs.html",
+    "combat.html",
+    "stats.html",
+    "skills.html",
+    "growth.html",
+    "equipment.html",
+    "magic.html",
+    "faith.html",
+    "races.html",
+    "characters.html",
+    "market.html",
+    "roadmap.html"
+  ],
+  "races": 68,
+  "weapons": 36,
+  "gods": 24,
+  "proposedSkills": 62,
+  "beer": 18,
+  "food": 24,
+  "drinks": 18
+}
