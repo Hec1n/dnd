@@ -46,5 +46,5 @@ for(const [id,values] of [['neko',[1,1,2,1,2,1,1,1,0,1]],['human',[1,1,1,1,1,1,1
  if(rows.length!==10||rows.some((r,i)=>Number(r[1])!==values[i]||Number(r[2])!==values[i]))throw Error(`Stats changed: ${id}`);
  if(!html.includes('5 ХП'))throw Error(`HP changed: ${id}`);
 }
-if(!docs.get('stats.html').includes('От 2 до 4')||!characters.includes('Владение нэн — 1-й уровень'))throw Error('Missing clarified rules');
+if(!docs.get('stats.html').includes('От 2 до 4')||!characters.includes('Владение Истоком — 1-й уровень'))throw Error('Missing clarified rules');
 console.log(JSON.stringify({pages:docs.size,localLinksAndAssets:checkedLinks,legacyRoutes:11,races:68,weapons:36,gods:24,characterTables:'preserved',proposedSkills:manifest.proposedSkills,tavernItems:manifest.beer+manifest.food+manifest.drinks,status:'OK'},null,2));
